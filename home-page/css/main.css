@@ -1,6 +1,4 @@
-
 body {
-
   line-height: 1.5;
   background: url(../img/grey.png);
 }
@@ -25,7 +23,7 @@ h2 {
   border-bottom: solid 1px #999;
 }
 h3 {
-  color: #872EB8;
+  color: #68218F;
   border-bottom: solid 1px #999;
 }
 h4 {
@@ -37,6 +35,7 @@ h4 {
 .steps .span8 h3 {
     border-bottom: none;
     color: #444;
+    font-size: 20px;
 }
 .big-link a, .big-link span {
     vertical-align: middle;
