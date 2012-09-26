@@ -2,6 +2,10 @@ body {
   line-height: 1.5;
   background: url(../img/grey.png);
 }
+.container-fluid {
+  min-width: 500px;
+  overflow: hidden;
+}
 html, body, input, select, textarea {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, sans-serif;
 
