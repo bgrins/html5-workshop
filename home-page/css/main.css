@@ -42,7 +42,7 @@ h4 {
   border: solid 2px #333;
   box-shadow: 0 0 10px #333;
   display:block;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 .big-link a, .big-link span {
     vertical-align: middle;
