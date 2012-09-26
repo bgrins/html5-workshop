@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Workshop Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML5 Workshop">
+    <meta name="author" content="Brian Grinstead">
+
+    <link rel="shortcut icon" href="home-page/favicon.ico">
+    <link href="home-page/css/bootstrap.css" rel="stylesheet">
+    <link href="home-page/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class='content'>
+        <div class='inner-content'>
+
+          <div class="hero-unit">
+            <h1>HTML5 Workshop</h1>
+            <h2>Tools to make your web designs better</h2>
+            <p>
+                By: Brian Grinstead.  Contact me: <a href='http://twitter.com/bgrins'>@bgrins</a> or <a href='http://briangrinstead.com'>http://briangrinstead.com</a>.
+            </p>
+
+            <hr />
+            <p class='big-link'>
+              <span class="label label-inverse">Go here →</span> <a class="big" href='https://github.com/bgrins/html5-workshop'>https://github.com/bgrins/html5-workshop</a>
+            </p>
+          </div>
+
+
+          <h2>What you'll need to follow along <small>(in no particular order)</small></h2>
+
+          <ul class="big">
+            <li><img src='home-page/img/txt.png' /> Text Editor</li>
+            <li><img src='home-page/img/chrome.png' /> Chrome</li>
+          </ul>
+
+          <h2>HTML5, Generally</h2>
+          <div class='steps'>
+
+            <div class="row-fluid">
+              <div class="span4">
+                <h3>0: HTML5</h3>
+                <p><a class="btn" target="_blank" href="0-html5/index.html">Go to page &raquo;</a></p>
+              </div>
+              <div class="span8">
+                <h3>Bare Minimum</h3>
+                <p>You don't need much to call a page "HTML5".</p>
+<pre class="prettyprint linenums">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=utf-8 /&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;/head&gt;
+  &lt;body&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+             </div>
+            </div>
+
+
+            <div class="row-fluid">
+              <div class="span4">
+                <h3>1: HTML5 Boilerplate</h3>
+                <p><a class="btn" target="_blank" href="1-html5-boilerplate/index.html">Go to page &raquo;</a></p>
+              </div>
+              <div class="span8">
+                <h3>Sensible defaults and community best practices</h3>
+                <p>
+                  You can't really go wrong with starting with this as a template.  It handles a bunch of different browser quirks and has a lot of handy CSS classes and markup.
+                </p>
+                <p>
+                  You may not need <strong>everything</strong> that it provides <small>(I don't always use the default project layout when building into a bigger project, for instance)</small>, but there is a lot of good stuff there.
+                </p>
+                <p>
+                  Check out <a href='http://html5boilerplate.com'>html5boilerplate.com</a> for more details.
+                </p>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span4">
+                <h3>2: Twitter Bootstrap</h3>
+                <p><a class="btn" target="_blank" href="2-with-bootstrap/index.html">Go to page &raquo;</a></p>
+              </div>
+              <div class="span8">
+                <h3>It's more of a framework</h3>
+                <p>
+                  <a href='http://twitter.github.com/bootstrap/'>Twitter Bootstrap</a> is a popular framework for common front-end tasks.
+                </p>
+                <p>
+                  It is pretty much a <a href='http://twitter.github.com/bootstrap/assets/css/bootstrap.css'>stylesheet</a> + some JavaScript components.  The defaults are good enough to make it start to look like a programmer didn't design the page.
+                </p>
+                <p>
+                  We will use this as the baseline for our little marketing page.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <h2>A Little More Specific</h2>
+          <div class='steps'>
+
+            <div class="row-fluid">
+              <div class="span4">
+                <h3>Web Fonts</h3>
+                <p><a class="btn" target="_blank" href="2-with-bootstrap/index.html">Go to page &raquo;</a></p>
+              </div>
+              <div class="span8">
+                <h3>Better than Times New Roman?</h3>
+                <p>
+                  Web fonts can spruce up a page.  <a href='http://www.google.com/webfonts'>Google Web Fonts</a> is popular and free.
+                </p>
+                <p>
+                  You have to consider performance tradeoffs if you want to use these.
+                </p>
+<pre class="prettyprint linenums">
+&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;
+&lt;style&gt;
+  h1 { font-family: 'Open Sans', sans-serif; }
+&lt;/style&gt;
+</pre>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span4">
+                <h3>CSS3 Features</h3>
+              </div>
+              <div class="span8">
+                <h3>New Stuff</h3>
+                <p>This isn't even touching on what is available, just what we will use to make our page.  Check out the <a href='#resources'>resources</a> section for more links and information about CSS3.</p>
+                <ul>
+                  <li>Gradients</li>
+                  <li>Shadows</li>
+                  <li>Border Radius</li>
+                  <li>Transform</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row-fluid">
+              <div class="span4">
+                <h3>Developer Tools</h3>
+              </div>
+              <div class="span8">
+                <h3>You are going to need them</h3>
+                <p>Realistically, you will need to learn how to use developer tools from within a web browser if you are going to be making web pages.</p>
+                <p>Here is a good overview of <a href='http://jtaby.com/2012/04/23/modern-web-development-part-1.html'>using Chrome Devtools</a>, and I've done a <a href='http://www.briangrinstead.com/blog/devtools-talk-slides-and-links'>couple of talks</a> at ComoRichWeb about them.</p>
+              </div>
+            </div>
+          </div>
+
+          <h2>Let's Make a Web Page That Looks Like a Programmer Didn't Do It</h2>
+
+          <div class='steps'>
+            <p>
+              OK, it will eventually look like this:<br />
+              <img src='home-page/img/screenshot-final.png' />
+            <p>
+            <p>
+              We are starting off from the Twitter Bootstrap sample.  Imagine you have some marketing content that you want to fit into a page, and a general design you are going for.
+            </p>
+            <p><a class="btn" target="_blank" href="4-marketing-design/initial.html">Initial Page With Content &raquo;</a>
+            </p>
+            <p>(ACTUALLY DO IT HERE) OK, it is done!</p>
+            <p>
+              <a class="btn" target="_blank" href="4-marketing-design/index.html">Go To Finished Page &raquo;</a>
+            </p>
+          </div>
+
+          <h2>More Resources</h2>
+          <div class='steps'>
+            <ul>
+              <li><a href='http://www.html5rocks.com/en/'>HTML5 Rocks</a> (news and updates)</a></li>
+              <li><a href='http://www.google.com/webfonts'>Google Webfonts</a></li>
+              <li><a href='http://jsbin.com/'>JSBin</a> (for demos and quick tests)</a></li>
+              <li><a href='http://subtlepatterns.com/'>Subtle Patters</a> (always make for a nice background image)</a></li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>Made By Brian Grinstead for <a href='http://comorichweb.posterous.com'>ComoRichWeb</a></p>
+      </footer>
+
+    </div>
+
+    <script type='text/javascript' src='home-page/js/prettify.js'></script>
+    <script type='text/javascript'>
+    window.prettyPrint && prettyPrint()
+    </script>
+  </body>
+</html>
