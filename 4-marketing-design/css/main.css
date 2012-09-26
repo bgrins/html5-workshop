@@ -71,13 +71,8 @@ h2 {
 	padding: 10px;
 }
 
-.nestedleft {
-
-}
-
 .nested {
 	padding: 10px;
-	text-align: center;
 }
 
 .blur {
@@ -96,6 +91,10 @@ h2 {
 	color: #777;
 	margin-top: 5px;
 	min-height: 150px;
+}
+
+.footer .nested {
+	text-align: center;
 }
 
 .footer ul {

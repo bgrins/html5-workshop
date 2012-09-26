@@ -37,6 +37,13 @@ h4 {
     color: #444;
     font-size: 20px;
 }
+.steps img {
+  max-width: 50%;
+  border: solid 2px #333;
+  box-shadow: 0 0 10px #333;
+  display:block;
+  margin: 0 auto;
+}
 .big-link a, .big-link span {
     vertical-align: middle;
 }
