@@ -1,5 +1,6 @@
 
 body {
+	background: url(../img/lines.png);
 	padding-top: 40px;
 }
 .sunny {
@@ -10,14 +11,27 @@ body {
 	margin-left: 35px;
 }
 .main {
-	background-image: url(../img/guy.jpeg);
-	background-position: -460px 0;
+	background-image: url(../img/landscape.jpg);
+	background-position: -790px -260px;
 	background-repeat: no-repeat;
 
 	border: solid 2px #CCC;
 	border-top: none;
 	border-bottom: none;
 	box-shadow: 0 10px 20px #AAA;
+}
+
+.banner {
+	min-height: 600px;
+}
+.callout {
+	margin-top: 40px;
+	padding-top: 20px;
+	padding: 20px;
+	border: 20px solid #EDEDED;
+	border-right:none;
+	background: rgba(255, 255, 255, .85);
+	border-radius: 5px 0 0 5px;
 }
 
 .sketch {
@@ -28,15 +42,15 @@ body {
 .sketch li {
 	margin: 25px 0;
 }
+.action {
+	margin-left: 60px;
+	padding: 10px;
+}
 .subtitle {
 	margin-right: 8px;
 	margin-top: 11px;
 }
 .nestedleft {
-	padding-top: 20px;
-	padding-bottom: 25px;
-	border-left: 10px solid #EDEDED;
-	background: url(../img/lines.png);
 }
 
 .nested {
